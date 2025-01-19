@@ -1,13 +1,15 @@
 import React from 'react'
 
-const Boxes = ({title,content}) => {
+
+const Boxes = ({title,content,svg}) => {
   return (
-    <div className='w-2/4 border h-48 border-black rounded-2xl p-4 ml-2 bg-gradient-to-b from-[rgba(113,158,220,20%)] dark:to-[rgba(113,158,220,10%)] backdrop-blur-lg shadow-lg ring-1 ring-white/5 ' >
-      <div className='font-bold text-gray-800'>{title}</div>
-      <div className='h-36 relative top-4 '>
-        <div className='text-gray-800 font-semibold'>{content}</div>
-      </div>
+    <>
+    <div className='block border min-h-0 max-w-sm rounded-2xl shadow-xl m-6 p-4 tracking-wide pointer-events-none'>
+<div className='flex gap-2'><span className='text-blue-400' >{svg}</span>
+    <span className='font-semibold'>{title}</span></div>
+    <div className='pl-1 mt-4 text-gray-500'>{content}</div>
     </div>
+     </>
   )
 }
 

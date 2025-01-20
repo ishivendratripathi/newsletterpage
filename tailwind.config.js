@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       colors:{
-        specialblue:"#2f5d9d",
+        specialblue:"bg-gradient-to-r from-sky-200 to-sky-100",
       }
     },
   },

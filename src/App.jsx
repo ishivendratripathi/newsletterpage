@@ -21,9 +21,9 @@ function App() {
 <Middletext text1="Join the waitlist to get free Bento templates delivered as " text2="they’re created, along with practical design tips."/>
   <Form button="Get your first template"/>
   <div className='max-w-fit ml-auto mr-auto mt-4'>
-    <p className='text-gray-400 indent-8'>Join 2,943+ creators. No spam guarantee. Unsubscribe anytime</p>
+    <p className='text-gray-400 '>Join 2,943+ creators. No spam guarantee. <div className='ml-16'>Unsubscribe anytime</div></p>
   </div>
-  <div className='max-w-fit ml-auto mr-auto'>
+  <div className='max-w-fit ml-auto mr-auto sm:flex sm:justify-center sm:items-center'>
   <Boxes svg={<Figma />} title="Templates in Figma" content="Every two weeks ,I'll send you exclusive early access to new templates before they're officially released on the website"/>
   <Boxes svg={<Zap/>} title="Latest updates" content="I&apos;ll also share practical content focused on visual design, modern design trends I've discovered, and any valuable updates."/>
   </div>

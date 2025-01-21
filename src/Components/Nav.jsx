@@ -14,7 +14,7 @@ const Nav = ({Dark,setDark}) => {
       <button onClick={()=>{
         setDark(!Dark)
       }} className=' text-sky-600'><SunMedium /></button>
-      <button className='text-gray-400'><Twitter /></button>
+      <a  className="mt-9" href="https://x.com/T63824Tripathi"><button className='text-gray-400'><Twitter /></button></a>
       <button className='text-gray-400'><CircleHelp /></button>
     </ul>
     </div>

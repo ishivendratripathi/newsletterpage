@@ -3,9 +3,10 @@ import React, { useState } from 'react'
 import { Twitter,SunMedium,CircleHelp } from 'lucide-react'
 
 
-const Nav = () => {
 
-  
+const Nav = ({Dark,setDark}) => {
+
+
   
   return (
     <div className='h-24 flex justify-between w-9/12 m-auto'>
